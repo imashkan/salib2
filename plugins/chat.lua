@@ -1,8 +1,8 @@
 local function run(msg)
-if msg.text == "ARJ" then
+if msg.text == "haul" then
 	return " جونم ؟ چی شده؟"
 end
-if msg.text == "A.R.J" then
+if msg.text == "هیول" then
 	return "بله ، کاری داری ؟"
 end
 if msg.text == "hi" then
@@ -54,7 +54,7 @@ if msg.text == "ببخشید" then
 	return "خدا ببخشه"
 end
 if msg.text == "بای" then
-        return "خدافظ ، مراقب زیباییات باش."
+        return "خدافظ ، مراقب خودت باش."
 end
 if msg.text == "کسکش" then
         return "فحش نده 😡"
@@ -68,11 +68,11 @@ end
 if msg.text == "خیلی خستم" then
         return "خسته نباشی پهلوون"
 end
-if msg.text == "Difense" then
-        return "با عموم چکار داری ؟"
+if msg.text == "اشی" then
+        return "با باباییم چکار داری ؟"
 end
-if msg.text == "difense" then
-        return "با عموم چکار داری ؟"
+if msg.text == "ashi" then
+        return "چیه بابامو کار داری؟"
 end
 end
 
@@ -82,19 +82,17 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
 		"^[Bb]ot$",
-		"^[Uu]mbrella$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
                 "^[Gg]oh nakhor$",
                 "^sik :D$",
                 "^[Bb]ashe$",
-                "^ARJ$",
-                "^A.R.J$",
-                "^[Dd]ifense$",
+                "^haul$",
+                "^هیول$",
+                "^ashi$",
+                "^اشی$",
                 "^گه نخور$",
                 "^ربات$",
                 "^کس ننت$",
@@ -103,7 +101,7 @@ return {
                 "^کسکش$",
                 "^سلام$",
                 "^خستم$",
-                "^خیلی خستم$",
+                "^خیلی خستم$"
 		}, 
 	run = run,
     --privileged = true,
